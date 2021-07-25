@@ -4,7 +4,9 @@ img {
 }
 
 a {
-  color: #707070;
+  color: #000000;
+  font-weight: bold;
+  font-size: 100%;
   text-decoration: none;
 }
 
@@ -13,35 +15,13 @@ li {
 }
 
 body {
-  color: #707070;
+  color: #000000;
   line-height: 1.7;
 }
 
 .flex__item {
   display: flex;
   justify-content: space-between;
-}
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.small-container {
-  max-width: 760px;
-  margin: 80px auto 0;
-}
-
-.common__ttl {
-  font-size: 24px;
-  font-weight: bold;
-  position: relative;
-}
-
-.common__sub-ttl {
-  font-size: 16px;
-  font-family: "Indie Flower", cursive;
-  color: #b31566;
 }
 
 /*--------------------- header--------------------- */
@@ -51,9 +31,9 @@ body {
   line-height: 70px;
 }
 
-.header__logo {
-  width: 150px;
-  margin-left: 40px;
+.header-title {
+  font-size: 180%;
+  padding: 0px 40px;
 }
 
 .header__nav {
@@ -62,6 +42,7 @@ body {
 
 .header__nav-list li {
   margin-right: 25px;
+  font-size: 140%;
 }
 
 .header__nav-list li:last-child {
