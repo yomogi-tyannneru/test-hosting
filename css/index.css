@@ -188,6 +188,8 @@ a {
 
 .recruit__item-ttl {
   position: absolute;
+  width: 70%;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -197,27 +199,60 @@ a {
 
 .recruit__item-ttl1 {
   position: absolute;
-  top: 50%;
+  width: 70%;
+  text-align: center;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .recruit__item-ttl2 {
   position: absolute;
-  top: 50%;
+  width: 90%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .recruit__item-ttl3 {
   position: absolute;
-  top: 50%;
+  width: 90%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
+  font-size: 16px;
+  font-weight: lighter;
+}
+/*--------------------- サービス--------------------- */
+.service {
+  padding: 60px;
+}
+
+.service-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.ervice.png-position {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+.service.png {
+  width: 40%;
+}
+
+.service1-title {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.service1-explanation {
   font-size: 15px;
 }
