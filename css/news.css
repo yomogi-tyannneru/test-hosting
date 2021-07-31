@@ -1,0 +1,99 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: #000000;
+  font-weight: bold;
+  font-size: 100%;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  color: #000000;
+  line-height: 1.7;
+}
+
+.flex__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.practice__btn {
+  width: 300px;
+  padding: 10px 0;
+  color: #fff;
+  background: rgb(201, 0, 0);
+  text-align: center;
+  margin: 30px auto 0;
+  display: block;
+}
+
+.practice__btn:hover {
+  filter: opacity(70%);
+  cursor: pointer;
+}
+
+/*--------------------- お問い合わせ--------------------- */
+.inquiry {
+  background-color: #f3f1f1;
+  padding: 80px;
+}
+
+.inquiry-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.inquiry-explanation {
+  font-size: 15px;
+  text-align: center;
+}
+/*--------------------- footer--------------------- */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+.footer-ttl {
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-nav-list {
+  display: flex;
+  font-weight: lighter;
+  width: 100%;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.footer-nav-item:hover {
+  filter: opacity(70%);
+  cursor: pointer;
+}
+
+.line {
+  margin: 0 10px;
+  width: 1px;
+  background-color: rgb(255, 255, 255);
+}
