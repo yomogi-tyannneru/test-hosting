@@ -238,14 +238,14 @@ a {
   text-align: center;
 }
 
-.ervice.png-position {
+.service_png-position {
   display: flex;
   flex-wrap: wrap;
-  width: 40%;
+  width: 50%;
 }
 
 .service.png {
-  width: 40%;
+  
 }
 
 .service1-title {
@@ -255,4 +255,14 @@ a {
 
 .service1-explanation {
   font-size: 15px;
+}
+
+.practice__btn {
+  width: 300px;
+  padding: 10px 0;
+  color: #fff;
+  background: rgb(201, 0, 0);
+  text-align: center;
+  margin: 30px auto 0;
+  display:block;
 }
