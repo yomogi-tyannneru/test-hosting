@@ -137,6 +137,19 @@ a {
 .in {
   transform: translateX(100%);
 }
+
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header__nav-list {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+}
 /*--------------------- 理念--------------------- */
 .Philosophy__item {
   height: 700px;
