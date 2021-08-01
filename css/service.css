@@ -176,62 +176,61 @@ a {
   transform: translateX(100%);
 }
 /*--------------------- 理念--------------------- */
-.Philosophy__item3 {
-  height: 700px;
+.mv_png1 {
   position: relative;
+}
+
+.mv_png {
   width: 100%;
-  display: block;
-  transition: 0.4s;
+  height: 250px;
+  object-fit: cover;
 }
 
-.Philosophy__item--third {
-  background: url(../img/mv.png) no-repeat;
-  background-size: cover;
-}
-
-.Philosophy__item-ttl4 {
+.mv_png-title {
   position: absolute;
-  width: 70%;
   text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 50px;
+  font-size: 30px;
+  font-weight: bolder;
 }
 /*--------------------- サービス--------------------- */
 .service {
-  padding: 60px;
-}
-
-.service-title {
-  font-size: 30px;
-  text-align: center;
+  padding: 60px 30px;
 }
 
 .service_png-position {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
   width: 100%;
 }
 
 .service_png-positiondiv {
-  width: 48%;
+  display: flex;
+  margin: 20px;
+  margin-left: -1px;
 }
 
+.service1-title-position {
+  padding-left: 40px;
+}
 .service_png {
   display: block;
-  width: 100%;
+  width: 28%;
 }
 
 .service1-title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bolder;
 }
 
 .service1-explanation {
-  font-size: 15px;
+  font-size: 16px;
+}
+
+hr {
+  border-width: bolder;
+  border-color: black;
 }
 /*--------------------- お問い合わせ--------------------- */
 .inquiry {
