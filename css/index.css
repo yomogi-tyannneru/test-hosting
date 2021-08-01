@@ -86,6 +86,7 @@ a {
   background: #fff;
   transition: 0.7s;
   text-align: center;
+  z-index: 1;
 }
 .nav ul {
   padding-top: 80px;
@@ -182,7 +183,7 @@ a {
 
 .Philosophy__item-ttl {
   position: absolute;
-  width: 80%;
+  width: 90%;
   text-align: center;
   top: 50%;
   left: 50%;
