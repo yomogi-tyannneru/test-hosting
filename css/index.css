@@ -43,6 +43,7 @@ body {
 .header {
   height: 70px;
   line-height: 70px;
+  position: sticky;
 }
 
 .header-title {
@@ -66,6 +67,7 @@ body {
 .header__nav-list-link {
   height: 70px;
   display: inline-block;
+  position: sticky;
 }
 
 .header__nav-list-link:hover {
@@ -142,6 +144,11 @@ a {
 
 .menu {
   display: none;
+}
+
+.header__nav-list-link1 {
+  height: 70px;
+  display: inline-block;
 }
 
 @media screen and (max-width: 768px) {
