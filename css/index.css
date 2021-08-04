@@ -41,9 +41,10 @@ body {
 /*--------------------- header--------------------- */
 
 .header {
+  position: sticky;
+  z-index: 1;
   height: 70px;
   line-height: 70px;
-  position: sticky;
 }
 
 .header-title {
@@ -80,6 +81,7 @@ a {
   text-decoration: none;
   color: blue;
 }
+
 .nav {
   position: absolute;
   height: 100vh;
@@ -88,7 +90,6 @@ a {
   background: #fff;
   transition: 0.7s;
   text-align: center;
-  z-index: 2;
   position: fixed;
 }
 .nav ul {
@@ -146,7 +147,7 @@ a {
   display: none;
 }
 
-.header__nav-list-link1 {
+.header1__nav-list-link1 {
   height: 70px;
   display: inline-block;
 }
