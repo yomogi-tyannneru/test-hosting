@@ -42,6 +42,7 @@ body {
 
 .header {
   position: sticky;
+  top: 0px;
   z-index: 1;
   height: 70px;
   line-height: 70px;
@@ -68,7 +69,6 @@ body {
 .header__nav-list-link {
   height: 70px;
   display: inline-block;
-  position: sticky;
 }
 
 .header__nav-list-link:hover {
@@ -105,7 +105,7 @@ a {
   height: 32px;
   cursor: pointer;
   position: relative;
-  right: 0px;
+  right: 20px;
   top: 20px;
   margin-left: auto;
 }
