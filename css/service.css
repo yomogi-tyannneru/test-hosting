@@ -60,7 +60,7 @@ body {
 
 .header__nav-list li {
   margin-right: 25px;
-  font-size: 140%;
+  font-size: 100%;
 }
 
 .header__nav-list li:last-child {
