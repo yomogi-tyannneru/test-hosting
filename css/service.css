@@ -41,8 +41,12 @@ body {
 /*--------------------- header--------------------- */
 
 .header {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
   height: 70px;
   line-height: 70px;
+  background-color: #fff;
 }
 
 .header-title {
@@ -73,58 +77,21 @@ body {
   cursor: pointer;
 }
 /*--------------------- ハンバーガーメニュー--------------------- */
-.menu {
-  display: inline-block;
-  width: 36px;
-  height: 32px;
-  cursor: pointer;
-  position: relative;
-  left: 20px;
-  top: 20px;
-}
-.menu__line--top,
-.menu__line--middle,
-.menu__line--bottom {
-  display: inline-block;
-  width: 100%;
-  height: 4px;
-  background-color: #000;
-  position: absolute;
-  transition: 0.5s;
-}
-.menu__line--top {
-  top: 0;
-}
-.menu__line--middle {
-  top: 14px;
-}
-.menu__line--bottom {
-  bottom: 0;
-}
-.menu.open span:nth-of-type(1) {
-  top: 14px;
-  transform: rotate(45deg);
-}
-.menu.open span:nth-of-type(2) {
-  opacity: 0;
-}
-.menu.open span:nth-of-type(3) {
-  top: 14px;
-  transform: rotate(-45deg);
-}
 /*--------------------- ドロワーメニュー--------------------- */
 a {
   text-decoration: none;
   color: blue;
 }
+
 .nav {
   position: absolute;
   height: 100vh;
   width: 100%;
   left: -100%;
-  background: #eee;
+  background: #fff;
   transition: 0.7s;
   text-align: center;
+  position: fixed;
 }
 .nav ul {
   padding-top: 80px;
@@ -139,8 +106,9 @@ a {
   height: 32px;
   cursor: pointer;
   position: relative;
-  left: 20px;
+  right: 20px;
   top: 20px;
+  margin-left: auto;
 }
 .menu__line--top,
 .menu__line--middle,
@@ -174,6 +142,24 @@ a {
 }
 .in {
   transform: translateX(100%);
+}
+
+.menu {
+  display: none;
+}
+
+.header1__nav-list-link1 {
+  height: 70px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .header__nav-list {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
 }
 /*--------------------- 理念--------------------- */
 .mv_png1 {
@@ -232,6 +218,47 @@ hr {
   border-width: bolder;
   border-color: black;
 }
+/*--------------------- サービス（ブレークポイント：768px） --------------------- */
+.service-break {
+  padding: 60px 0px;
+}
+
+.service_png-position-break {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.service_png-break {
+  display: block;
+  width: 100%;
+}
+
+.service1-title-break {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.service1-explanation-break {
+  font-size: 15px;
+}
+
+hr {
+  border-width: bolder;
+  border-color: black;
+}
+
+.service-break {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .service {
+    display: none;
+  }
+  .service-break {
+    display: block;
+  }
+}
 /*--------------------- お問い合わせ--------------------- */
 .inquiry {
   background-color: #f3f1f1;
@@ -289,4 +316,63 @@ a {
   margin: 0 10px;
   width: 1px;
   background-color: rgb(255, 255, 255);
+}
+/*--------------------- footer（ブレークポイント：768px）--------------------- */
+a {
+  text-decoration: none;
+}
+
+.footer-break {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-inner-break {
+  padding: 0 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-ttl-break {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 100px;
+}
+
+.footer-nav-list-break {
+  font-weight: lighter;
+  width: 100%;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.footer-nav-item-break {
+  padding-bottom: 14px;
+}
+
+.footer-nav-item-break:hover {
+  filter: opacity(70%);
+  cursor: pointer;
+}
+
+.line-break {
+  margin: 0 10px;
+  width: 1px;
+  background-color: rgb(255, 255, 255);
+}
+
+.footer-break {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: none;
+  }
+  .footer-break {
+    display: block;
+  }
 }
