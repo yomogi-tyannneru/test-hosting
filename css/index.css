@@ -233,6 +233,89 @@ a {
   font-size: 16px;
   font-weight: lighter;
 }
+
+/*--------------------- 理念（ブレークポイント：768px）--------------------- */
+.Philosophy__item-break {
+  height: 700px;
+  position: relative;
+  width: 100%;
+  display: block;
+  transition: 0.4s;
+}
+.Philosophy__item2-break {
+  height: 300px;
+  position: relative;
+  width: 100%;
+  display: block;
+  transition: 0.4s;
+}
+
+.Philosophy__item-break:hover {
+  transition: 0.4s;
+}
+
+.Philosophy__item--first-break {
+  background: url(../img/mv.png) no-repeat;
+  background-size: cover;
+}
+
+.Philosophy__item--second-break {
+  background: black no-repeat;
+  background-size: cover;
+}
+
+.Philosophy__item-ttl-break {
+  position: absolute;
+  width: 90%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 50px;
+}
+
+.Philosophy__item-ttl1-break {
+  position: absolute;
+  width: 70%;
+  text-align: center;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 18px;
+}
+
+.Philosophy__item-ttl2-break {
+  position: absolute;
+  width: 90%;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 30px;
+}
+
+.Philosophy__item-ttl3-break {
+  position: absolute;
+  width: 90%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 768px) {
+  .Philosophy__item {
+    display: none;
+  }
+  .Philosophy__item-break {
+    display: block;
+  }
+}
+
 /*--------------------- サービス--------------------- */
 .service {
   padding: 60px;
