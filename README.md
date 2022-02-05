@@ -28,65 +28,11 @@ https://heuristic-torvalds-e02adc.netlify.app/
 
 下記ボタンから画像をダウンロード
 
+[CS.zip](https://github.com/yomogi-tyannneru/test-hosting/files/8007876/CS.zip)
 
+<img width="854" alt="スクリーンショット 2022-02-05 20 07 51" src="https://user-images.githubusercontent.com/86700967/152639656-c8424bd6-1ce9-464b-af8e-ea42b9e3035e.png">
 
-ディレクトリ構成
-
-以下のようなディレクトリ構成でサイトを作成してください。
-
-index.html（ホーム）
-
-service.html（事業内容）
-
-news.html（ニュース）
-
-blog.html（社員ブログ）
-
-company.html（会社概要）
-
-recruit.html（採用情報）
-
-contact.html（お問い合わせ）
-
-css
-
-reset.css
-
-index.css
-
-service.css
-
-news.css
-
-blog.css
-
-company.css
-
-recruit.css
-
-contact.css
-
-img
-
-logo.png
-
-mv.png
-
-blog.png
-
-service1.png
-
-service2.png
-
-service3.png
-
-service4.png
-
-js
-
-main.js
-
-
+<img width="837" alt="スクリーンショット 2022-02-05 20 08 06" src="https://user-images.githubusercontent.com/86700967/152639662-df26c084-3732-419d-9f29-ed377d47c9e0.png">
 
 リセットCSSを使用する（reset.cssに記述する）
 
@@ -95,16 +41,6 @@ main.js
 Web版サイズのデザインはブラウザの幅が1000〜1500pxの大きさでデザインが崩れていないかを確認する
 
 レスポンシブ版のデザインは400px〜768pxの幅でデザインが崩れていないかを確認する
-
-基本要件
-
-固定ヘッダー
-
-ハンバーガーメニュー
-
-ドロワーメニュー
-
-レスポンシブデザイン（ブレークポイント：768px）
 
 # 環境を構築する方法
 
